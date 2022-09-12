@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Dosis:wght@200;300;400;500&family=Familjen+Grotesk:wght@400;600;700&family=Lato:ital,wght@0,100;0,400;1,100&family=Roboto+Condensed:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  color: #000;
+  line-height: 1, 4;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000a3;
+  cursor: pointer;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 0px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.container .logo {
+  padding: 8px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+}
+
+.logo p {
+  opacity: 0.9;
+}
+
+.container .main-nav ul {
+  list-style: none;
+  display: flex;
+}
+.main-nav ul li {
+  margin: 0 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-nav ul li i {
+  display: block;
+  text-align: center;
+  color: #000000a3;
+}
+
+.fa-user {
+  margin-right: 10px;
+}
+
+/* images */
+
+section {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.runners {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.runners h1 {
+  padding: 20px 0;
+  font-weight: 400;
+}
+
+.images {
+  display: flex;
+  height: 400px;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.images div {
+  height: auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  
+}
+
+.images p {
+  font-weight: 300;
+}
+
+.images i {
+  text-align: center;
+  display: none;
+  background-color: #fff;
+  padding: 5px 8px ;
+  color: rgba(0, 0, 0, 0.508);
+  border-radius: 50%;
+}
+
+.strength {
+  background: url(../img/strength.webp) no-repeat center center/cover;
+}
+
+.mobility {
+  background: url(../img/mobility.webp) no-repeat center center/cover;
+}
+
+.drills {
+  background: url(../img/drills.webp) no-repeat center center/cover;
+}
+
+.images div:hover {
+  width: 1000px;
+ 
+}
+
+.images div:hover i {
+  display: inline;
+  
+}
